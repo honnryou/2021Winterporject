@@ -15,10 +15,10 @@
 #e = a.find(".")
 #print(str(a[c:c+3])+str(len(a[c:e]))+str(d)+"!")
 #모법답안
-#url = input()
-#my_url = url.replace("http://","")#(http:// 삭제)
-#print(my_url)
-#my_url = my_url[:my_url.index(".")]#(.이하 버림)
-#print(my_url)
-#password = my_url[:3]+str(len(my_url))+str(my_url.count("e"))+"!"
-#print(password)
+url = input()
+my_url = url.replace("http://","")#(http:// 삭제)
+print(my_url)
+my_url = my_url[:my_url.index(".")]#(.이하 버림)
+print(my_url)
+password = my_url[:3]+str(len(my_url))+str(my_url.count("e"))+"!"
+print(password)

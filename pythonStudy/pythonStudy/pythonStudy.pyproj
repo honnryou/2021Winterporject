@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>7902b6b3-b41b-45f4-a41c-514fe1647f8c</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>practice1.py</StartupFile>
+    <StartupFile>taxi.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -23,6 +23,12 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="taxi.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="random_wow.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="practice1.py">
       <SubType>Code</SubType>
     </Compile>
